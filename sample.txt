@@ -1,0 +1,16 @@
+What are the most popular three articles of all time?
+('candidate-is-jerk', 677294L)
+('bears-love-berries', 507602L)
+('bad-things-gone', 340196L)
+
+Who are the most popular article authors of all time?
+
+('candidate-is-jerk', 1354588L, 'Rudolf von Treppenwitz')
+('bears-love-berries', 1015204L, 'Ursula La Multa')
+('bad-things-gone', 680392L, 'Anonymous Contributor')
+
+On which days did more than 1% of requests lead to errors?
+
+(datetime.datetime(2016, 7, 1, 7, 7, 24, tzinfo=psycopg2.tz.FixedOffsetTimezone(offset=0, name=None)), 1L)
+(datetime.datetime(2016, 7, 1, 7, 7, 54, tzinfo=psycopg2.tz.FixedOffsetTimezone(offset=0, name=None)), 1L)
+(datetime.datetime(2016, 7, 1, 7, 7, 59, tzinfo=psycopg2.tz.FixedOffsetTimezone(offset=0, name=None)), 1L)
